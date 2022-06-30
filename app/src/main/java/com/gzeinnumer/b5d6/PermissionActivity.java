@@ -24,6 +24,7 @@ public class PermissionActivity extends BasePermissionActivity {
                     @Override
                     public void isGranted(boolean isGranted) {
                         if (isGranted)
+                            //maukemana
                             Toast.makeText(getApplicationContext(), "intent to clickMulti:diizinkan", Toast.LENGTH_SHORT).show();
                         else
                             openSettings();
